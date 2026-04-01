@@ -149,7 +149,7 @@ export default function TimetableApp() {
         <div className="fixed inset-0 bg-gray-900/40 backdrop-blur-md flex items-end sm:items-center justify-center p-4 z-50 animate-in fade-in duration-300">
           <div className="bg-white rounded-[3rem] p-8 w-full max-w-sm shadow-2xl overflow-hidden relative">
             <h2 className="text-xl font-black mb-8 text-center text-gray-900">
-             {editingId.split('-')[1]}曜日 {editingId.split('-')[2]}時限
+               {editingId.split('-')[2]}曜日 {editingId.split('-')[1]}時限
             </h2>
             <div className="space-y-5">
               <input
